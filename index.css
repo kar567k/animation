@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    /*height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    box-sizing: border-box;
+    border: 2px solid pink;
+    /*transition: 0.3s;
+    animation-name: color-change;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    /*animation-iteration-count: infinite;
+    transform: translateY(-400px);
+    /* animation-fill-mode: forwards; */
+    animation-name: moving-box;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes moving-box {
+    0%{
+        
+    }
+    25%{
+        transform: translateX(500px)
+    }
+
+    50%{
+        transform: translate(500px, 500px);
+    }
+
+    75%{
+        transform: translate(0px,500px);
+    }
+
+    100%{
+        transform: translate(0px,0px);
+    }
+}
